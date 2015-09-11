@@ -6,12 +6,22 @@ html {
 }
 
 body {
-   
     width: 800px;
     position: relative;
     background-color: white;
     margin: 0 auto 0 auto; 
     padding: 0 10px 10px 10px;
+/*    box-shadow: 15px 15px 10px black;*/
+    box-shadow: 0 0 100px black;
+}
+
+article {
+    width: 640px;
+}
+
+sidebar {
+    position: absolute;
+    width: 160px;
 }
 
 header {
