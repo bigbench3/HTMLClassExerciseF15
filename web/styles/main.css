@@ -1,5 +1,16 @@
 html {
     font-family: Arial;
+    background-repeat: url('../images/bats.gif'); 
+    
+}
+
+body {
+   
+    width: 800px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto 0 auto; 
+    padding: 0 10px 10px 10px;
 }
 
 h2#store {
