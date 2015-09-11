@@ -1,0 +1,43 @@
+html {
+    font-family: Arial;
+}
+
+h2#store {
+    padding-left: 3em;
+    color: orange;
+    font-size: 250%;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+}
+
+h3#goblin {
+/*    padding-top: 0.5em;*/
+    padding-left: 7em;
+}
+
+h2#welcome::first-letter {
+    font-size: 200%;
+}
+
+img {
+    float: left;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: orange;
+    background-color: transparent;
+}
+
+a:hover {
+    color: green;
+}
+
+footer {
+    font-size: 60%;
+    text-align: center;
+}
+
