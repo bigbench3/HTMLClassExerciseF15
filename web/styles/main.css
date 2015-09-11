@@ -1,6 +1,7 @@
 html {
     font-family: Arial;
-    background-repeat: url('../images/bats.gif'); 
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat;
     
 }
 
@@ -13,17 +14,21 @@ body {
     padding: 0 10px 10px 10px;
 }
 
+header {
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%, black); 
+}
+
 h2#store {
-    padding-left: 3em;
-    color: orange;
+    padding-left: 3.5em;
+    margin-bottom: 0em;
     font-size: 250%;
-    text-shadow: 2px 2px black;
-    font-style: italic;
 }
 
 h3#goblin {
-/*    padding-top: 0.5em;*/
-    padding-left: 7em;
+    padding-left: 8em;
+    margin-top: 0em;
 }
 
 h2#welcome::first-letter {
@@ -31,6 +36,8 @@ h2#welcome::first-letter {
 }
 
 img {
+    padding-top: 2em;
+    padding-left: 1em;
     float: left;
 }
 
@@ -50,5 +57,8 @@ a:hover {
 footer {
     font-size: 60%;
     text-align: center;
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange 75%, white);
 }
 
