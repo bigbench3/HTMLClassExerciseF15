@@ -5,14 +5,11 @@ html {
 }
 
 body {
-    width: 800px;
-    height: 760px;
+   width: 800px;
+   height: 760px;
    background-color: white;
    margin: 0 auto 0 auto; 
-  // padding: 20px;
-   //border: solid black;
    box-shadow: 0 0 50px black;
-   // box-shadow: 0 0 100px black;
 }
 
 article {
