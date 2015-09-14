@@ -7,7 +7,6 @@ html {
 body {
     width: 800px;
     height: 760px;
-   // left: auto;
    background-color: white;
    margin: 0 auto 0 auto; 
   // padding: 20px;
@@ -17,7 +16,6 @@ body {
 }
 
 article {
-    background-color: white;
     width: 600px;
 }
 
@@ -43,7 +41,6 @@ nav#sidebar {
 }
 
 header {
-   // box-shadow: 15px 15px 10px black;
     border: solid black;
     background-color: orange;
     background: linear-gradient(45deg, white, orange 75%, black); 
@@ -85,7 +82,6 @@ a:hover {
 
 
 footer {
-   // left: auto;
     float: right;
     width: 797px;
     font-size: 60%;
@@ -93,6 +89,6 @@ footer {
     border: solid black;
     background-color: orange;
     background: linear-gradient(45deg, black, orange 75%, white);
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 100px black;
 }
 
