@@ -7,24 +7,44 @@ html {
 
 body {
     width: 800px;
-    position: relative;
-    background-color: white;
-    margin: 0 auto 0 auto; 
-    padding: 0 10px 10px 10px;
-/*    box-shadow: 15px 15px 10px black;*/
-    box-shadow: 0 0 100px black;
+    height: 760px;
+   // left: auto;
+   background-color: white;
+   margin: 0 auto 0 auto; 
+  // padding: 20px;
+   //border: solid black;
+   box-shadow: 0 0 50px black;
+   // box-shadow: 0 0 100px black;
 }
 
 article {
-    width: 640px;
+    background-color: white;
+    width: 600px;
 }
 
-sidebar {
-    position: absolute;
+article#para{
+    float: right;
+}
+
+article#para1{
+    float: right;
+}
+
+article#image {
+    float: right;
+}
+article#link {
+    float: right;
+}
+
+nav#sidebar {
+    float: left;
     width: 160px;
+    background-color: white;
 }
 
 header {
+   // box-shadow: 15px 15px 10px black;
     border: solid black;
     background-color: orange;
     background: linear-gradient(45deg, white, orange 75%, black); 
@@ -64,11 +84,16 @@ a:hover {
     color: green;
 }
 
+
 footer {
+   // left: auto;
+    float: right;
+    width: 797px;
     font-size: 60%;
     text-align: center;
     border: solid black;
     background-color: orange;
     background: linear-gradient(45deg, black, orange 75%, white);
+    box-shadow: 0 0 10px black;
 }
 
