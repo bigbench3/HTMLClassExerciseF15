@@ -1,3 +1,5 @@
+/* Copyright 2015 Ben Hay */
+
 html {
     font-family: Arial;
     background-image: url('../images/bats.gif');
@@ -6,10 +8,60 @@ html {
 
 body {
    width: 800px;
-   height: 760px;
    background-color: white;
    margin: 0 auto 0 auto; 
-   box-shadow: 0 0 50px black;
+   border: 2px solid black;
+   box-shadow: 0 10px 20px 10px black;
+   box-sizing: border-box;
+}
+
+#menuBar li:hover > a {
+  background: grey;
+  color: black;
+  position: relative;
+}
+
+nav  {
+  background: black;
+  height: 2em;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 20%;
+}
+
+nav ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  height: 2em;
+  width: 100%;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+
+#menuBar li:hover > a {
+  background: grey;
+  color: black;
+  position: relative;
+}
+
+nav li a.current {
+  color: orange;
 }
 
 article {
@@ -31,10 +83,56 @@ article#link {
     float: right;
 }
 
-nav#sidebar {
+aside#sideBar {
     float: left;
     width: 160px;
     background-color: white;
+}
+
+aside {
+  float: left;
+  width: 160px;
+}
+
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 0 .2em 1em;
+}
+
+aside li:first-child {
+  margin-top: 1.2em;
+}
+
+aside li a {
+
+  background: orange;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: .25em;
+  padding-left: .75em;
+  padding-right: .2em;
+  text-decoration: none;
+
+}
+
+aside li a:last-child {
+  margin-bottom: 0;
+}
+
+aside li a:hover {
+  color: black;
 }
 
 header {
@@ -67,16 +165,6 @@ img {
 li {
     padding-bottom: 0.5em;
 }
-
-a {
-    color: orange;
-    background-color: transparent;
-}
-
-a:hover {
-    color: green;
-}
-
 
 footer {
     float: right;
