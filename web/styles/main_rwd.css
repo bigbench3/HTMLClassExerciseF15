@@ -65,12 +65,12 @@ nav li a.current {
   color: orange;
 }
 
-nav #hamburgerIcon {
+#miniMenu {
   display: none;
 }
 
 article {
-    width: 600px;
+    width: 37em;
 }
 
 article#para{
@@ -97,6 +97,9 @@ aside#sideBar {
 aside {
   float: left;
   width: 10em;
+  float: top;
+  position: absolute;
+  transform: translate(0em, 0em);
 }
 
 aside ul {
@@ -191,13 +194,14 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-     html {
+  html {
     background-image: none;
   }
   body {
     box-shadow: none;
     font-size: 95%;
   } 
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -210,15 +214,28 @@ footer {
     box-shadow: none;
     font-size: 95%;
   } 
-}
-
-@media screen and (max-width: 767px) {
+  
+  nav{
+      display: none;
+  }
+  
+  #miniMenu {
+    float: right;
+    color: white;
+    display:block;
+    text-decoration: none;
+    padding-right: 2em;
+    line-height: 2em;
+    padding-left: 86.6%;
+    background-color: black;
+    max-height: 2em;
+    white-space: nowrap;
+  }
+  
+  article#para{
+      width: 100%;
+  }
     
-    nav{
-        display: none;
-    }
-    
-
   ul.menuBar {
     background: black;
     clear: both;
@@ -267,7 +284,10 @@ footer {
   }
   
   aside {
+      position: relative;
       font-size: 80%;
+      clear: both;
+      float: none;
   }
   
   aside ul {
