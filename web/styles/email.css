@@ -148,7 +148,7 @@ li {
 }
 
 article {
-    float: right;
+    float:right;
 }
 
 article form input{
@@ -156,6 +156,7 @@ article form input{
     width: 20em;
     margin-bottom: 0.5em;
     font-size: 18px;
+    margin-right: 3.5em;
     
 }
 
@@ -167,7 +168,7 @@ form label {
 
 #submit {
     background-color: orange;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     height: 1.5em;
     width: 8em;
     margin-right: 21em;
