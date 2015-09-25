@@ -97,7 +97,6 @@ aside#sideBar {
 aside {
   float: left;
   width: 10em;
-  float: top;
   position: absolute;
   transform: translate(0em, 0em);
 }
@@ -163,7 +162,7 @@ h2#welcome::first-letter {
     font-size: 200%;
 }
 
-img {
+#pumpkin {
   float: left;
   margin-right: 2em;
   min-width: 40px;
@@ -171,12 +170,12 @@ img {
   width: 10.6%;
 }
 
-img#cat1 {
+#cat {
   float: left;
   margin-right: 2em;
   min-width: 100px;
-  max-width: 200px;
-  width: 15%;  
+  max-width: 400px;
+  width: 25%;  
 }
 
 li {
@@ -202,6 +201,9 @@ footer {
     font-size: 95%;
   } 
   
+  #cat{
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -233,7 +235,7 @@ footer {
   }
   
   article#para{
-      width: 100%;
+      width: 95%;
   }
     
   ul.menuBar {
@@ -280,11 +282,11 @@ footer {
   
   article {
       box-sizing: border-box;
-      width: 100%;
+      width: 95%;
   }
   
   aside {
-      position: relative;
+      position:relative;
       font-size: 80%;
       clear: both;
       float: none;
