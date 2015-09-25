@@ -41,7 +41,7 @@
     
     <article>
         <h1><b>Please enter the following information.</b></h1>
-        <form>
+        <form action="subscribe.html">
             <label>First name:  </label>
             <input type="text" name="First name:" autofocus="">
             <br>
@@ -49,13 +49,13 @@
             <input type="text" name="Last name:">
             <br>
             <label>Email:  </label>
-            <input type="text" name="Email:">
+            <input type="email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" name="Email:">
             <br>
             <label id="zip">Zip Code: </label>
-            <input type="text" pattern="^\d{5}$" name="Zip Code:" placeholder="Optional but apprecaited: 99999">
+            <input type="text" required pattern="\d{5}$" name="Zip Code:" placeholder="Optional but apprecaited: 99999">
             <br>
             <br>
-            <input id="submit" type="button" value="Submit" onClick="parent.location='subscribe.html'">
+            <input id="submit" type="submit" value="Submit">
         </form>
     </article>
     

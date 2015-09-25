@@ -96,7 +96,7 @@ aside#sideBar {
 
 aside {
   float: left;
-  width: 5em;
+  width: 10em;
 }
 
 aside ul {
@@ -168,6 +168,14 @@ img {
   width: 10.6%;
 }
 
+img#cat1 {
+  float: left;
+  margin-right: 2em;
+  min-width: 100px;
+  max-width: 200px;
+  width: 15%;  
+}
+
 li {
     padding-bottom: 0.5em;
 }
@@ -205,6 +213,11 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    
+    nav{
+        display: none;
+    }
+    
 
   ul.menuBar {
     background: black;
