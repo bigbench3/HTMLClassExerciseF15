@@ -1,0 +1,285 @@
+/* Copyright 2015 Haris Cesko */
+
+html {
+    font-family: Arial;
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat; 
+}
+
+body {
+   max-width: 960px;
+   width: 95%;
+   background-color: white;
+   margin: 0 auto 0 auto; 
+   border: 2px solid black;
+   box-shadow: 0 10px 20px 10px black;
+   box-sizing: border-box;
+}
+
+#menuBar li:hover > a {
+  background: grey;
+  color: black;
+  position: relative;
+}
+
+nav  {
+  background: black;
+  height: 2em;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 20%;
+}
+
+nav ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  height: 2em;
+  width: 100%;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+
+#menuBar li:hover > a {
+  background: grey;
+  color: black;
+  position: relative;
+}
+
+nav li a.current {
+  color: orange;
+}
+
+nav #hamburgerIcon {
+  display: none;
+}
+
+article {
+    width: 600px;
+}
+
+article#para{
+    float: right;
+}
+
+article#para1{
+    float: right;
+}
+
+article#image {
+    float: right;
+}
+article#link {
+    float: right;
+}
+
+aside#sideBar {
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+
+aside {
+  float: left;
+  width: 5em;
+}
+
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 0 .2em 1em;
+}
+
+aside li:first-child {
+  margin-top: 1.2em;
+}
+
+aside li a {
+  background: orange;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  display: block;
+  line-height: 2em;
+  margin-bottom: .25em;
+  padding-left: .75em;
+  padding-right: .2em;
+
+}
+
+aside li a:last-child {
+  margin-bottom: 0;
+}
+
+aside li a:hover {
+  color: black;
+}
+
+header {
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%, black); 
+}
+
+h2#store {
+    padding-left: 3.5em;
+    margin-bottom: 0em;
+    font-size: 250%;
+}
+
+h3#goblin {
+    padding-left: 8em;
+    margin-top: 0em;
+}
+
+h2#welcome::first-letter {
+    font-size: 200%;
+}
+
+img {
+  float: left;
+  margin-right: 2em;
+  min-width: 40px;
+  max-width: 85px;
+  width: 10.6%;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+footer {
+    clear: both;
+    font-size: 60%;
+    text-align: center;
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange 75%, white);
+    box-shadow: 0 0 100px black;
+}
+
+@media screen and (max-width: 800px) {
+     html {
+    background-image: none;
+  }
+  body {
+    box-shadow: none;
+    font-size: 95%;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+    
+  html {
+  background-image: none;
+  }
+  
+  body {
+    box-shadow: none;
+    font-size: 95%;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+
+  ul.menuBar {
+    background: black;
+    clear: both;
+    display: block;
+    height: auto;
+    left: 1em; /*-9000em */
+    position: absolute; 
+    transform: translate(-500px, 2em);
+    transition: transform 0.3s ease;
+    width: 14em;
+  }
+
+  .menuBar li {
+    clear: both;
+    display: block;
+    line-height: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    width: 90%;
+  }
+
+  .menuBar li a {
+    clear: both;
+    display: block;
+    line-height: 2em;
+    min-height: 48px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 1em;;
+    width: 100%;
+  }
+
+  nav #hamburger {
+    display: block;
+    float: right;
+    padding-right: 2em;
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+  }
+  
+  article {
+      box-sizing: border-box;
+      width: 100%;
+  }
+  
+  aside {
+      font-size: 80%;
+  }
+  
+  aside ul {
+    margin: 0 auto;
+  }
+  
+  
+  
+}
+
+@media screen and (max-width: 479px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  header h2 {
+    font-size: 1.3em;
+  }
+
+  section h1 {
+    font-size: 1.5em;
+  }
+  
+  aside {
+      font-size: 70%;
+  }
+}
+
+
