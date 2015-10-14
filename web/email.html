@@ -41,18 +41,19 @@
     
     <article>
         <h1><b>Please enter the following information.</b></h1>
-        <form action="subscribe.html">
+        <form action="goelon">
+            <input type="hidden" name="action" value="add">
             <label>First name:  </label>
-            <input type="text" name="First name:" autofocus="">
+            <input type="text" name="firstName" autofocus="">
             <br>
             <label>Last name:  </label>
-            <input type="text" name="Last name:">
+            <input type="text" name="lastName">
             <br>
             <label>Email:  </label>
-            <input type="email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" name="Email:">
+            <input type="email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" name="email">
             <br>
             <label id="zip">Zip Code: </label>
-            <input type="text" required pattern="\d{5}$" name="Zip Code:" placeholder="Optional but apprecaited: 99999">
+            <input type="text" required pattern="\d{5}$" name="zipCode" placeholder="Optional but apprecaited: 99999">
             <br>
             <br>
             <input id="submit" type="submit" value="Submit">
